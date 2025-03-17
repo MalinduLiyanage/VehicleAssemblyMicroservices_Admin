@@ -1,0 +1,1 @@
+wwwroot\Templates\SendEmailView\AdminAccountEmail.html

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\malin\\source\\repos\\Microservices\\AdminService\\wwwroot\\Templates\\SendEmailView\\AdminAccountEmail.html",
+      "PackagePath": "staticwebassets\\Templates\\SendEmailView\\AdminAccountEmail.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AdminService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AdminService.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AdminService.props",
+      "PackagePath": "build\\AdminService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AdminService.props",
+      "PackagePath": "buildMultiTargeting\\AdminService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AdminService.props",
+      "PackagePath": "buildTransitive\\AdminService.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

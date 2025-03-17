@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "AdminService.Controllers.AdminController",
+    "Method": "AdminList",
+    "RelativePath": "api/Admin/get-all",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AdminService.DTOs.Responses.BaseResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdminService.Controllers.AdminController",
+    "Method": "LoginAdmin",
+    "RelativePath": "api/Admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AdminService.DTOs.AdminDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AdminService.DTOs.Responses.BaseResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AdminService.Controllers.AdminController",
+    "Method": "AddAdmin",
+    "RelativePath": "api/Admin/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AdminService.DTOs.AdminDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AdminService.DTOs.Responses.BaseResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

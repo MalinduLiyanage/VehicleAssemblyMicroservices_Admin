@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AdminService/Templates/SendEmailView/AdminAccountEmail.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\SendEmailView\AdminAccountEmail.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2848"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 19:26:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AdminService/Templates/SendEmailView/AdminAccountEmail.itm675uv89.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Templates\SendEmailView\AdminAccountEmail.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"itm675uv89"},{"Name":"integrity","Value":"sha256-BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8="},{"Name":"label","Value":"_content/AdminService/Templates/SendEmailView/AdminAccountEmail.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2848"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 19:26:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

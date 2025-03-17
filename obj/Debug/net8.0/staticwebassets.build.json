@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "sSZMAtbFA8A6si1n6losxD7HYu6TB0rdjeQEzuqdgXY=",
+  "Source": "AdminService",
+  "BasePath": "_content/AdminService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AdminService\\wwwroot",
+      "Source": "AdminService",
+      "ContentRoot": "C:\\Users\\malin\\source\\repos\\Microservices\\AdminService\\wwwroot\\",
+      "BasePath": "_content/AdminService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\malin\\source\\repos\\Microservices\\AdminService\\wwwroot\\Templates\\SendEmailView\\AdminAccountEmail.html",
+      "SourceId": "AdminService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\malin\\source\\repos\\Microservices\\AdminService\\wwwroot\\",
+      "BasePath": "_content/AdminService",
+      "RelativePath": "Templates/SendEmailView/AdminAccountEmail#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "itm675uv89",
+      "Integrity": "BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Templates\\SendEmailView\\AdminAccountEmail.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Templates/SendEmailView/AdminAccountEmail.html",
+      "AssetFile": "C:\\Users\\malin\\source\\repos\\Microservices\\AdminService\\wwwroot\\Templates\\SendEmailView\\AdminAccountEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 19:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8="
+        }
+      ]
+    },
+    {
+      "Route": "Templates/SendEmailView/AdminAccountEmail.itm675uv89.html",
+      "AssetFile": "C:\\Users\\malin\\source\\repos\\Microservices\\AdminService\\wwwroot\\Templates\\SendEmailView\\AdminAccountEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 19:26:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "itm675uv89"
+        },
+        {
+          "Name": "label",
+          "Value": "Templates/SendEmailView/AdminAccountEmail.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8="
+        }
+      ]
+    }
+  ]
+}

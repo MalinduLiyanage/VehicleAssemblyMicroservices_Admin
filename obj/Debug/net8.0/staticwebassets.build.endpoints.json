@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Templates/SendEmailView/AdminAccountEmail.html",
+      "AssetFile": "Templates/SendEmailView/AdminAccountEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 19:26:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8="
+        }
+      ]
+    },
+    {
+      "Route": "Templates/SendEmailView/AdminAccountEmail.itm675uv89.html",
+      "AssetFile": "Templates/SendEmailView/AdminAccountEmail.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 19:26:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "itm675uv89"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvRWuvy8Ny53J6iFXccZhVGJwatTJ0GRuxo2jZvHVo8="
+        },
+        {
+          "Name": "label",
+          "Value": "Templates/SendEmailView/AdminAccountEmail.html"
+        }
+      ]
+    }
+  ]
+}
