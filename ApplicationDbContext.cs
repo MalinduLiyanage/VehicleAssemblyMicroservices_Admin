@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using AdminService.Attributes;
 
-namespace AdminService
+namespace AdminApi
 {
     public class ApplicationDbContext : DbContext
     {

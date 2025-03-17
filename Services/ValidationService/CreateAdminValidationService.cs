@@ -1,4 +1,5 @@
-﻿using AdminService.DTOs;
+﻿using AdminApi;
+using AdminService.DTOs;
 
 namespace AdminService.Services.ValidationService
 {

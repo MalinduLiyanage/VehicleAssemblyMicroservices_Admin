@@ -1,20 +1,21 @@
-﻿using AdminService.DTOs.Requests.EmailRequests;
-using AdminService.DTOs.Responses;
+﻿using AdminApi;
+using AdminService;
 using AdminService.DTOs;
+using AdminService.DTOs.Requests.EmailRequests;
+using AdminService.DTOs.Responses;
 using AdminService.Models;
-using AdminService.Utilities.EmailServiceUtility.AdminAccountCreation;
 using AdminService.Utilities.EmailServiceUtility;
+using AdminService.Utilities.EmailServiceUtility.AdminAccountCreation;
 using AdminService.Utilities.PasswordHashUtility;
-using AdminApi;
 
-namespace AdminService.Services.AdminAccountService
+namespace AdminService.Services.AdminServices
 {
-    public class AdminAccountService : IAdminAccountService
+    public class AdminService : IAdminService
     {
         private readonly ApplicationDbContext context;
         private readonly IEmailService emailService;
 
-        public AdminAccountService(ApplicationDbContext context, IEmailService emailService)
+        public AdminService(ApplicationDbContext context, IEmailService emailService)
         {
             this.context = context;
             this.emailService = emailService;

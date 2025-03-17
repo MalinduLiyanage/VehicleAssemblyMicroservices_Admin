@@ -5,6 +5,7 @@ using AdminService.Utilities.EmailServiceUtility;
 using AdminService.Utilities.PasswordHashUtility;
 using Microsoft.EntityFrameworkCore;
 using AdminService.Services.AdminAccountService;
+using AdminApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
