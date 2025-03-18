@@ -6,6 +6,7 @@ using AdminService.Utilities.PasswordHashUtility;
 using Microsoft.EntityFrameworkCore;
 using AdminService.Services.AdminAccountService;
 using AdminApi;
+using AdminService.Services.InternalAdminAccountService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,7 @@ builder.Services.AddScoped<ICreateAdminValidationService, CreateAdminValidationS
 builder.Services.AddScoped<IPasswordHashUtilityService, PasswordHashUtilityService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IAdminAccountService, AdminAccountService>(); 
+builder.Services.AddScoped<IInternalAdminAccountService, InternalAdminAccountService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

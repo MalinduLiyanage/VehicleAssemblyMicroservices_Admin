@@ -32,5 +32,6 @@ namespace AdminService.Controllers
         {
             return adminAccountService.GetAdmins();
         }
+
     }
 }

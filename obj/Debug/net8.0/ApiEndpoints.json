@@ -70,5 +70,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "AdminService.Controllers.InternalAdminController",
+    "Method": "GetAdminById",
+    "RelativePath": "api/InternalAdmin/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
