@@ -16,7 +16,7 @@ var database = Environment.GetEnvironmentVariable("DB_NAME");
 var user = Environment.GetEnvironmentVariable("DB_USER");
 var password = Environment.GetEnvironmentVariable("DB_PASSWORD");
 //var connectionString = $"Server={server};Port={port};Database={database};User={user};Password={password};";
-var connectionString = $"Server=localhost;Port=3306;Database=vehicleadmindb;User=root;Password=;";
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 GlobalAttributes.mySQLConfig.connectionString = connectionString;
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
