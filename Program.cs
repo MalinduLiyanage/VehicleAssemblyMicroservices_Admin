@@ -46,4 +46,11 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+using (IServiceScope scope = app.Services.CreateScope())
+{
+    ApplicationDbContext dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.EnsureCreated();
+    dbContext.Database.Migrate();
+}
+
 app.Run();
