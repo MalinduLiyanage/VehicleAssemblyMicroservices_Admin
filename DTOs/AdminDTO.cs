@@ -4,7 +4,7 @@ namespace AdminService.DTOs
 {
     public class AdminDTO
     {
-        [AdminValidationAttribute]
+        [AdminValidation]
         public required int NIC { get; set; }
         public required string Firstname { get; set; }
         public required string Lastname { get; set; }

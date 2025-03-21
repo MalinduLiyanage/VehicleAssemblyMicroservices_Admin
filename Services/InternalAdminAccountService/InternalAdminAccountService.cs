@@ -21,7 +21,7 @@ namespace AdminService.Services.InternalAdminAccountService
         {
             try
             {
-                var admin = context.admins
+                AdminDTO? admin = context.admins
                     .Where(a => a.NIC == id)
                     .Select(a => new AdminDTO
                     {
@@ -34,7 +34,7 @@ namespace AdminService.Services.InternalAdminAccountService
 
                 return admin;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }

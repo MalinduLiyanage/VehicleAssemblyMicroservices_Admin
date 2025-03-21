@@ -17,7 +17,7 @@ namespace AdminService.Utilities.PasswordHashUtility
         private string SetRandomPassword()
         {
             generatedPassword = GenerateRandomPassword(8);
-            using (var sha256 = SHA256.Create())
+            using (SHA256 sha256 = SHA256.Create())
             {
                 PasswordHash = sha256.ComputeHash(Encoding.UTF8.GetBytes(generatedPassword));
             }
@@ -25,9 +25,9 @@ namespace AdminService.Utilities.PasswordHashUtility
         }
         public bool VerifyPassword(string userPassword, byte[] dbPassword)
         {
-            using (var sha256 = SHA256.Create())
+            using (SHA256 sha256 = SHA256.Create())
             {
-                var userHash = sha256.ComputeHash(Encoding.UTF8.GetBytes(userPassword));
+                byte[]? userHash = sha256.ComputeHash(Encoding.UTF8.GetBytes(userPassword));
                 return StructuralComparisons.StructuralEqualityComparer.Equals(dbPassword, userHash);
             }
         }

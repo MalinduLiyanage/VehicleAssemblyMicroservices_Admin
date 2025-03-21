@@ -1,4 +1,5 @@
-﻿using AdminService.DTOs.Responses;
+﻿using AdminService.DTOs;
+using AdminService.DTOs.Responses;
 using AdminService.Services.AdminAccountService;
 using AdminService.Services.InternalAdminAccountService;
 using Microsoft.AspNetCore.Mvc;
@@ -19,7 +20,7 @@ namespace AdminService.Controllers
         [HttpPost("{id}")]
         public IActionResult GetAdminById(int id)
         {
-            var result = internalAdminAccountService.GetAdminById(id);
+            AdminDTO result = internalAdminAccountService.GetAdminById(id);
 
             if (result == null)
             {
